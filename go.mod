@@ -1,5 +1,8 @@
 module github.com/terraform-providers/terraform-provider-tfe
 
+// TODO: remove this line before PR
+replace github.com/hashicorp/go-tfe => /Users/lafentres/Code/HashiCorp/golang/go-tfe
+
 require (
 	github.com/hashicorp/go-hclog v0.0.0-20190109152822-4783caec6f2e // indirect
 	github.com/hashicorp/go-tfe v0.4.0
